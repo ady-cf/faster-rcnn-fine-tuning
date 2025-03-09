@@ -1,10 +1,18 @@
-# Faster R-CNN Fine-Tuning
+# Faster R-CNN Fine-Tuning  
+[![Skills](https://skillicons.dev/icons?i=pytorch,python)](https://skillicons.dev)
 
-This repository contains a Jupyter Notebook for fine-tuning a Faster R-CNN model on a custom dataset for object detection.
+This repository contains a Jupyter Notebook designed for fine-tuning a Faster R-CNN model on a custom object detection dataset. Built using **PyTorch**, this notebook provides a straightforward way to fine-tune a pre-trained Faster R-CNN model for your specific detection tasks.
 
 ## Overview
 
-This notebook is designed to help users fine-tune a Faster R-CNN model pre-trained on the COCO dataset for their custom object detection tasks. The process involves loading a custom dataset in COCO format, training the Faster R-CNN model, and evaluating its performance using mean Average Precision (mAP).
+This notebook helps users fine-tune a Faster R-CNN model, originally pre-trained on the COCO dataset, to work with their own custom dataset. The process includes:
+
+1. Loading a custom dataset in COCO format.
+2. Training the Faster R-CNN model.
+3. Evaluating model performance using **mean Average Precision (mAP)**.
+
+Whether you're working with a small dataset or scaling up to a larger collection of images, this notebook will guide you through the fine-tuning process.
+
 
 ## Dataset
 
